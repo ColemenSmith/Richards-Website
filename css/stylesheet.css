@@ -1,0 +1,92 @@
+body {
+    margin: 0%;
+}
+
+h1,
+h2,
+p {
+    font-family: 'Lacquer';
+}
+
+
+/*NAVBAR*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+/* WALLPAPER */
+
+.wallpaper {
+    position: fixed;
+    bottom: -20px;
+    left: -20px;
+    width: 100%;
+    filter: blur(3px) brightness(70%);
+    z-index: -1;
+}
+
+
+/*ABOUT*/
+
+.about {
+    border: 2px solid white;
+    margin-top: 100px;
+    color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background-color: rgba(131, 129, 129, 0.4);
+    font-family: 'Lacquer';
+}
+
+
+/* MUSIC */
+
+.art {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+#song1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#song2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#song3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
