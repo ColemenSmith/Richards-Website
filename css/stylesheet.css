@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0%;
 }
@@ -16,7 +20,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgba(61, 61, 61, 0.685);
     position: fixed;
     top: 0;
     width: 100%;
@@ -34,6 +38,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    left: 5vw;
 }
 
 li a:hover {
@@ -65,6 +70,7 @@ li a:hover {
     margin-bottom: 20px;
     background-color: rgba(131, 129, 129, 0.4);
     font-family: 'Lacquer';
+    font-size: .9vw;
 }
 
 
@@ -75,8 +81,7 @@ li a:hover {
     width: 40%;
     height: 300px;
     margin-left: 8%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-top: 20px;
 }
 
 #column2 {
@@ -84,8 +89,7 @@ li a:hover {
     width: 40%;
     height: 300px;
     margin-right: 8%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-top: 20px;
 }
 
 .art:after {
@@ -93,3 +97,70 @@ li a:hover {
     display: table;
     clear: both;
 }
+
+/* CONTACT FORM */
+
+.pop-up-form {
+    bottom: 1.75vw;
+    right: 5vw;
+    width: 20vw;
+    background-color: darkkhaki;
+    color: slategray;
+    border: solid;
+    border-radius: 15px;
+    cursor: pointer;
+    position: fixed;
+}
+
+button {
+    letter-spacing: .3vw;
+    font-size: 1.5vw;
+    font-weight: bold;
+    padding: 1vw 1vw;
+    border-style: solid;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 100%;
+    height: auto;
+}
+
+.form {
+    display: none;
+    border: 3px solid #f0f1f0;
+    z-index: 8;
+    position: fixed;
+    bottom: 6px;
+    right: 6px;
+}
+
+.form-container .btn {
+    background-color: white;
+    color: black;
+    border-color: black;
+    margin-bottom: 1vh;
+}
+
+.form-container .cancel {
+    background-color: black;
+    color: white;
+    border-color: gray;
+}
+
+button:hover, .form-container .btn:hover {
+    color: white;
+    background-color: black;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+    border-style: solid;
+    border-color: silver;
+}
+    
+.form-container .cancel:hover {
+    color: white;
+    background-color: darkred;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+    border-style: solid;
+    border-color: black;
+   }
+    
